@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Signature</title>
+    <style type="text/css">
+        .email-signature {
+            font-family: Arial, sans-serif;
+            color: #333333;
+        }
+        .signature-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333333;
+        }
+        .signature-title {
+            font-size: 16px;
+            color: #555555;
+            margin-bottom: 4px;
+        }
+        .signature-contact {
+            font-size: 14px;
+            color: #666666;
+            line-height: 1.5;
+        }
+        .signature-logo {
+            height: 40px;
+            width: auto;
+            margin-bottom: 4px;
+        }
+        .signature-divider {
+            height: 2px;
+            background-color: #E07A5F;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-signature">
+        <img src="path-to-your-logo.png" alt="Company Logo" class="signature-logo"/>
+        <div class="signature-name">Akash Roy</div>
+        <div class="signature-title">TechOps Lead, Kee Platforms Limited</div>
+        <div class="signature-divider"></div>
+        <div class="signature-contact">
+            <span>📱 +971527553621</span> |
+            <span>🔗 <a href="http://kee.life" target="_blank">kee.life</a></span> |
+            <span>📧 <a href="mailto:akash@kee.life" target="_blank">akash@kee.life</a></span>
+        </div>
+        <div class="signature-contact">
+            📍 101-102, The Offices 4, One Central, Dubai, UAE
+        </div>
+    </div>
+</body>
+</html>
